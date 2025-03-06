@@ -1,9 +1,73 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" version="26.1.0">
   <diagram name="Page-1" id="EH4sR5zbchp94UQ0pXUU">
-    <mxGraphModel>
+    <mxGraphModel dx="989" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="roQCH-J8g7vjqCuINd5_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="roQCH-J8g7vjqCuINd5_-3" target="roQCH-J8g7vjqCuINd5_-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="569.9999999999998" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="roQCH-J8g7vjqCuINd5_-3" value="Draw random event card" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="roQCH-J8g7vjqCuINd5_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="roQCH-J8g7vjqCuINd5_-6" target="roQCH-J8g7vjqCuINd5_-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="569.9999999999998" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="roQCH-J8g7vjqCuINd5_-6" value="Display card with two choices" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="509.9999999999998" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="roQCH-J8g7vjqCuINd5_-10" value="Swipe left" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="roQCH-J8g7vjqCuINd5_-8" target="roQCH-J8g7vjqCuINd5_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="roQCH-J8g7vjqCuINd5_-12" value="Swipe right" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="roQCH-J8g7vjqCuINd5_-8" target="roQCH-J8g7vjqCuINd5_-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="roQCH-J8g7vjqCuINd5_-8" value="Player makes choice" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="320" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="roQCH-J8g7vjqCuINd5_-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="roQCH-J8g7vjqCuINd5_-9" target="roQCH-J8g7vjqCuINd5_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="roQCH-J8g7vjqCuINd5_-9" value="Consequences for the right choice" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="roQCH-J8g7vjqCuINd5_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="roQCH-J8g7vjqCuINd5_-11" target="roQCH-J8g7vjqCuINd5_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="roQCH-J8g7vjqCuINd5_-11" value="Consequences for the left choice" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="roQCH-J8g7vjqCuINd5_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="roQCH-J8g7vjqCuINd5_-13" target="roQCH-J8g7vjqCuINd5_-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="569.9999999999998" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="roQCH-J8g7vjqCuINd5_-13" value="Player stats updated" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="roQCH-J8g7vjqCuINd5_-18" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="roQCH-J8g7vjqCuINd5_-17" target="roQCH-J8g7vjqCuINd5_-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="469.9999999999998" y="929.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="roQCH-J8g7vjqCuINd5_-17" value="Breakpoint reached?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="529.9999999999998" y="800" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="roQCH-J8g7vjqCuINd5_-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="roQCH-J8g7vjqCuINd5_-19" target="roQCH-J8g7vjqCuINd5_-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="464.7931034482758" y="1029.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="roQCH-J8g7vjqCuINd5_-19" value="Unlock new cards" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="940" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="roQCH-J8g7vjqCuINd5_-21" value="Update in JSON backend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="404.79" y="1000" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
